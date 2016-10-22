@@ -1,0 +1,744 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2016, 9:44:05 PM
+    Author     : saurya
+*/
+
+body
+{
+    margin:0px;
+}
+
+h1, h2, h3, h4, h5
+{
+    margin:0;
+    padding:0;
+}
+
+hr
+{
+    height:1px;
+    border:none;
+    color:#cccccc;
+    background:#ddd;
+    display:block;
+}
+
+#main_body_wrapper
+{
+    min-width:1100px;
+    margin:0 auto;
+}
+
+#header
+{
+    min-width:1100px;
+    margin:0 auto;
+    background:#fff;
+    padding:17px 0px 17px 0px;
+    
+}
+
+#header_content
+{
+    width:1050px;
+    margin:0 auto;
+}
+
+#header_right
+{
+    width:350px;
+    float:right;
+    margin-top:27px;
+}
+
+#user_log
+{
+    font-family:Arial;
+    color:#666;
+    float:right;
+}
+
+#user_log a
+{
+    text-decoration:none;
+    font-family:Arial;
+    color:#666;
+}
+
+#user_log a:hover
+{
+    text-decoration:underline;
+}
+
+#header_left
+{
+    width:600px;
+}
+
+#search_form
+{
+    float:right;
+    width:415px;
+    margin-top:19px;
+}
+
+#search_text
+{
+    width:335px;
+    font-family:Arial;
+    height:34px;
+    border-radius:3px;
+    border:1px solid #ccc;
+    padding:0px 4px 0px 4px;
+    transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+}
+
+#search_text:hover
+{
+    border:1px solid #aaa;
+    box-shadow:0px 0px 1px #ccc;
+}
+
+#search_text:focus
+{
+    border:1px solid #aaa;
+    box-shadow:0px 0px 3px #ccc;
+}
+
+#search_btn
+{
+    width:50px;
+    height:33px;
+    text-align:center;
+    padding-bottom:4px;
+    font-family:Arial;
+    font-size:20px;
+    border-radius:3px;
+    border:none;
+    background:#1f7a7a;
+    color:#fff;
+    cursor:pointer;
+    transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+}
+
+#search_btn:hover
+{
+    background:#1a6565;
+}
+
+#logo h1
+{
+    font-family:Arial;
+    color:#666;
+}
+
+#navbar
+{
+    min-width:1100px;
+    background:#1f7a7a;
+    margin:0 auto;
+}
+
+#navbar_content
+{
+    width:1050px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+#navbar_content ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#navbar_content ul li
+{
+    float:left;
+    display:block;
+    border-right:1px solid #155151;
+    border-left:1px solid #258e8e;
+}
+
+#navbar_content ul li:first-child
+{
+    border-left:none;
+}
+
+#navbar_content ul li:last-child
+{
+    border-right:none;
+}
+
+#navbar_content ul li a
+{
+    display:block;
+    font-family:Arial;
+    font-size:14px;
+    color:#fff;
+    padding:15px 20px 15px 20px;
+    text-decoration:none;
+    text-transform:uppercase;
+    transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+}
+
+#navbar_content ul li a:hover
+{
+    background:#1a6565;
+}
+#main_page
+{
+    min-width:1100px;
+    margin:0 auto;
+}
+
+#main_page_content
+{
+    width:1050px;
+    margin:0 auto;
+    background:#fff;
+    min-height:500px;
+}
+
+#right_sidebar
+{
+    float:right;
+    
+    width:300px;
+}
+
+#left_sidebar
+{
+    
+    width:700px;
+}
+
+#news_event
+{
+    padding:10px;
+}
+
+#book_list
+{
+    padding:10px;
+}
+
+.book_thumb_row {
+    background:#f8f8f8;
+    padding:12px;
+    border-bottom:1px solid #f0f0f0;
+    
+}
+
+.book_thumb_row:nth-child(even){
+    background:#fdfdfd;
+}
+
+.book_thumb_row .tit_link
+{
+    text-decoration:none;
+    font-family:Arial;
+    color:#0086b3;
+}
+
+.book_thumb_row .tit_link:hover
+{
+    text-decoration:underline;
+}
+
+.cat_link
+{
+    font-family:Arial;
+    color:#666;
+    text-decoration:none;
+}
+
+.cat_link:hover
+{
+    text-decoration:underline;
+}
+
+.view_more
+{
+    font-family:Arial;
+    font-size:13px;
+    background:#1f7a7a;
+    color:#fff;
+    text-decoration:none;
+    padding:7px 25px 7px 25px;
+}
+
+.view_more:hover
+{
+    background:#258e8e;
+}
+
+.form_panel
+{
+    width:700px;
+}
+
+.form_panel label
+{
+    font-family:Arial;
+    font-size:15px;
+    color:#595959;
+    font-weight:bold;
+}
+
+.form_panel input, select
+{
+    margin:0px 0px 20px 0px;
+}
+
+.form_panel form
+{
+    width:500px;
+}
+
+#first_name, #middle_name, #last_name, #email_id, #phone, #password, #book_name, #author, #publisher, #publish_date, #isbn, #description, #book_cat
+{
+    width:100%;
+    height:42px;
+    border:2px solid #B8B8B8;
+    font-family:Arial;
+    font-size:17px;
+    color:#5F5F5F;
+    padding-left:5px;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+}
+
+#description
+{
+    width:100%;
+    height:200px;
+    border:2px solid #B8B8B8;
+    font-family:Arial;
+    font-size:17px;
+    color:#5F5F5F;
+    padding-left:5px;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    overflow:auto;
+    resize:none;
+    margin:0px 0px 20px 0px;
+}
+
+#comment_text
+{
+    width:100%;
+    height:80px;
+    border:2px solid #B8B8B8;
+    font-family:Arial;
+    font-size:17px;
+    color:#5F5F5F;
+    padding-left:5px;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    overflow:auto;
+    resize:none;
+    margin:0px 0px 20px 0px;
+}
+
+#first_name:hover, #middle_name:hover, #last_name:hover, #email_id:hover, #phone:hover, #password:hover, #book_name:hover, #author:hover, #publisher:hover, #publish_date:hover, #isbn:hover, #description:hover, #book_cat:hover, #comment_text:hover
+{
+    border:2px solid #1f7a7a;
+}
+
+#first_name:focus, #middle_name:focus, #last_name:focus, #email_id:focus, #phone:focus, #password:focus, #book_name:focus, #author:focus, #publisher:focus, #publish_date:focus, #isbn:focus, #description:focus, #book_cat:focus, #comment_text:focus
+{
+    border:2px solid #1f7a7a;
+    box-shadow:0px 0px 4px #1f7a7a;
+}
+
+#register_btn, #login_btn, #add_book_btn, #save_book_btn, #comment_post_btn
+{
+    background:#1f7a7a;
+    border:none;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    width:160px;
+    height:37px;
+    cursor:pointer;
+    border-radius:2px;
+    transition:all 0.3s ease-in-out;
+-moz-transition:all 0.3s ease-in-out;
+-webkit-transition:all 0.3s ease-in-out;
+-ms-transition:all 0.3s ease-in-out;
+-o-transition:all 0.3s ease-in-out;
+}
+
+#register_btn:hover, #login_btn:hover, #add_book_btn:hover, #save_book_btn:hover, #comment_post_btn:hover
+{
+    background:#1a6565;
+}
+
+#create_acc_panel
+{
+    float:right;
+    border-left:1px solid #ccc;
+    padding-left:100px;
+}
+
+#create_acc_panel ul
+{
+    margin:15px 0px 0px 0px;
+    padding:3px 0px 0px 20px;
+    list-style-type:square;
+    font-family:Arial;
+    font-size:13px;
+    color:#4d4d4d;
+}
+
+#create_acc_btn
+{
+    background:#216C2A;
+    border:none;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    height:42px;
+    cursor:pointer;
+    border-radius:4px;
+    transition:all 0.3s ease-in-out;
+-moz-transition:all 0.3s ease-in-out;
+-webkit-transition:all 0.3s ease-in-out;
+-ms-transition:all 0.3s ease-in-out;
+-o-transition:all 0.3s ease-in-out;
+}
+
+#create_acc_btn:hover
+{
+    background:#0086b3;
+}
+
+#book_list_tbl
+{
+   margin-top:8px;
+   border-collapse:collapse;
+   width:100%;
+}
+
+#book_list_tbl tr
+{
+    
+    border-bottom:1px solid #eaeaea;
+}
+
+#book_list_tbl tr:first-child
+{
+    border:none;
+}
+
+#book_list_tbl tr:nth-child(odd)
+{
+    background:#fafafa;
+}
+
+#book_list_tbl th
+{
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    background:#1f7a7a;
+    color:#fff;
+    padding:14px 10px 14px 10px;
+    text-align:left;
+}
+
+
+#book_list_tbl td
+{
+    padding:6px 10px 6px 10px;
+    font-family:Arial;
+    font-size:12px;
+    color:#595959;
+}
+
+#book_list_tbl .action a
+{
+    text-decoration:none;
+}
+
+#book_list_tbl .action a:hover
+{
+    text-decoration:underline;
+}
+
+#book_content
+{
+    width:600px;
+}
+
+#book_details
+{
+    font-family:Arial;
+    font-size:14px;
+    margin-top:8px;
+}
+
+#book_details tr
+{
+    color:#333;
+}
+
+#book_details td
+{
+    padding:5px;
+}
+
+.each_comment
+{
+    border-bottom:1px solid #eaeaea;
+    padding:5px;
+}
+
+.each_comment:nth-child(odd)
+{
+    background:#f9f9f9;
+}
+
+#loan_book_btn
+{
+    font-family:Arial;
+    font-size:13px;
+    border:none;
+    padding:10px 20px 10px 20px;
+    font-weight:bold;
+    background:#008000;
+    border-radius:4px;
+    color:#fff;
+    cursor:pointer;
+}
+
+#loan_book_btn:hover
+{
+    background:#009900;
+}
+
+#bookmark_btn
+{
+    font-family:Arial;
+    font-size:13px;
+    border:none;
+    padding:10px 20px 10px 20px;
+    font-weight:bold;
+    background:#e6b800;
+    border-radius:4px;
+    color:#fff;
+    cursor:pointer;
+}
+
+#bookmark_btn:hover
+{
+    background:#cca300;
+}
+
+#profile_menu
+{
+    width:220px;
+}
+
+#exp_menu ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#exp_menu ul li 
+{
+    border-bottom:1px solid #eaeaea;
+    border-left:1px solid #eaeaea;
+    border-right:1px solid #eaeaea;
+}
+
+#exp_menu ul li:nth-child(even)
+{
+    background:#fafafa;
+}
+
+#exp_menu ul li a
+{
+    text-decoration:none;
+    display:block;
+    padding:10px;
+    font-family:Arial;
+    color:#555;
+    font-size:13px;
+}
+
+#exp_menu ul li a:hover
+{
+    background:#f5f5f5;
+}
+
+#menu_content
+{
+    float:right;
+    width:770px;
+    padding:8px;
+}
+
+#user_prof_det
+{
+    border:none;
+    border-collapse:collapse;
+}
+
+#user_prof_det tr td
+{
+    padding:7px;
+    font-family:Arial;
+    color:#555;
+    font-size:14px;
+}
+
+#bookmark_tbl
+{
+    border-collapse:collapse;
+    width:100%;
+}
+
+#bookmark_tbl td
+{
+    padding:5px;
+    font-family:Arial;
+    color:#555;
+    font-size:14px;
+    text-align:left;
+}
+
+#bookmark_tbl th
+{
+    text-align:left;
+    padding:5px;
+    font-family:Arial;
+    color:#555;
+    font-size:14px;
+}
+
+.cmnt_list
+{
+    width:600px;
+    padding:8px;
+    border-bottom:1px solid #eaeaea;
+    font-family:Arial;
+    font-size:13px;
+    color:#555;
+}
+
+.cmnt_list:nth-child(even)
+{
+    background:#f5f5f5;
+}
+#bookmark_tbl td a
+{
+    text-decoration:none;
+    font-family:Arial;
+    color:#555;
+    font-size:14px;
+}
+
+#bookmark_tbl td a:hover
+{
+    text-decoration:underline;
+}
+
+#bookmark_tbl tr
+{
+    border-bottom:1px solid #eaeaea;    
+}
+
+#bookmark_tbl tr:nth-child(even){
+    background:#f5f5f5;
+}
+
+.first_row ul
+{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+.first_row ul li
+{
+    display:block;
+    border-bottom:1px solid #eee;
+    
+}
+
+.first_row ul:nth-child(odd) li
+{
+    background:#fefefe;
+}
+
+.first_row ul:nth-child(even) li
+{
+    background:#fafafa;
+}
+
+
+.first_row ul li a
+{
+    display:block;
+    padding:10px;
+    font-family:Arial;
+    font-size:13px;
+    color:#666;
+    text-decoration:none;
+}
+
+.first_row ul li a:hover
+{
+    background:#f5f5f5;
+}
+
+.second_row
+{
+    background:#fefefe;
+    padding:10px;
+}
+
+#footer
+{
+    min-width:1100px;
+    margin:0 auto;
+    background:#666;
+    padding:10px;
+}
+
+#footer_content
+{
+    width:1050px;
+    margin:0 auto;
+}
